@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reloj Digital de 12 Horas - JS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" >
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="wrap">
+            <div class="widget">
+                <div class="fecha">
+                    <p id="diaSemana" class="diaSemana"></p>
+                    <p id="dia" class="dia"></p>
+                    <p>de</p>
+                    <p id="mes" class="mes"></p>
+                    <p>del</p>
+                    <p id="year" class="year"></p>
+                </div>
+                    <div class="reloj">
+                        <p id="horas" class="horas"></p>
+                        <p>:</p>
+                        <p id="minutos" class="minutos"></p>
+                        <p>:</p>
+                        <div class="caja-segundos">
+                            <p id="ampm" class="ampm"></p>
+                            <p id="segundos" class="segundos"></p>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+        <script src="reloj.js" async defer></script>
+    </body>
+</html>
